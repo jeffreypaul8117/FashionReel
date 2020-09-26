@@ -89,7 +89,7 @@
   .head .title a:hover {
     opacity: 0.7; }
 
-.section-1 {
+.sectionpictures {
   width: 100%;
   height: 100vh;
   display: grid;
@@ -97,109 +97,109 @@
   grid-template-areas: "img1 img4" "img23 img4";
   align-items: center;
   justify-content: center; }
-  .section-1 .img1 {
+  .sectionpictures .img1 {
     width: 100% !important; }
-  .section-1 .img23 {
+  .sectionpictures .img23 {
     display: flex; }
-  .section-1 .image {
+  .sectionpictures .image {
     padding: 10px; }
 
-.section-2 {
+.womensfashion {
   width: 100%;
   align-items: center;
   text-align: center;
   height: 100vh;
   margin-top: 100px; }
-  .section-2 .womentitle {
+  .womensfashion .womentitle {
     padding: 30px 0; }
-  .section-2 .pics1 {
+  .womensfashion .womenspictures {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left; }
-    .section-2 .pics1 h4 {
+    .womensfashion .womenspictures h4 {
       font-weight: 100; }
-    .section-2 .pics1 .h2 {
+    .womensfashion .womenspictures .h2 {
       font-weight: 100 !important; }
-    .section-2 .pics1 .part1,
-    .section-2 .pics1 .part2,
-    .section-2 .pics1 .part3,
-    .section-2 .pics1 .part4 {
+    .womensfashion .womenspictures .part1,
+    .womensfashion .womenspictures .part2,
+    .womensfashion .womenspictures .part3,
+    .womensfashion .womenspictures .part4 {
       margin: 0 10px; }
-      .section-2 .pics1 .part1 .h3,
-      .section-2 .pics1 .part1 .h4,
-      .section-2 .pics1 .part2 .h3,
-      .section-2 .pics1 .part2 .h4,
-      .section-2 .pics1 .part3 .h3,
-      .section-2 .pics1 .part3 .h4,
-      .section-2 .pics1 .part4 .h3,
-      .section-2 .pics1 .part4 .h4 {
+      .womensfashion .womenspictures .part1 .h3,
+      .womensfashion .womenspictures .part1 .h4,
+      .womensfashion .womenspictures .part2 .h3,
+      .womensfashion .womenspictures .part2 .h4,
+      .womensfashion .womenspictures .part3 .h3,
+      .womensfashion .womenspictures .part3 .h4,
+      .womensfashion .womenspictures .part4 .h3,
+      .womensfashion .womenspictures .part4 .h4 {
         margin: 40px 0; }
 
-.section-3 {
+.mensfashion {
   width: 100%;
   align-items: center;
   text-align: center;
   height: 100vh;
   margin-top: 100px; }
-  .section-3 .mentitle {
+  .mensfashion .mentitle {
     padding: 30px 0; }
-  .section-3 .pics2 {
+  .mensfashion .menspictures {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left; }
-    .section-3 .pics2 h4 {
+    .mensfashion .menspictures h4 {
       font-weight: 100; }
-    .section-3 .pics2 .h2 {
+    .mensfashion .menspictures .h2 {
       font-weight: 100 !important; }
-    .section-3 .pics2 .part1,
-    .section-3 .pics2 .part2,
-    .section-3 .pics2 .part3,
-    .section-3 .pics2 .part4 {
+    .mensfashion .menspictures .part1,
+    .mensfashion .menspictures .part2,
+    .mensfashion .menspictures .part3,
+    .mensfashion .menspictures .part4 {
       margin: 0 10px; }
-      .section-3 .pics2 .part1 .h3,
-      .section-3 .pics2 .part1 .h4,
-      .section-3 .pics2 .part2 .h3,
-      .section-3 .pics2 .part2 .h4,
-      .section-3 .pics2 .part3 .h3,
-      .section-3 .pics2 .part3 .h4,
-      .section-3 .pics2 .part4 .h3,
-      .section-3 .pics2 .part4 .h4 {
+      .mensfashion .menspictures .part1 .h3,
+      .mensfashion .menspictures .part1 .h4,
+      .mensfashion .menspictures .part2 .h3,
+      .mensfashion .menspictures .part2 .h4,
+      .mensfashion .menspictures .part3 .h3,
+      .mensfashion .menspictures .part3 .h4,
+      .mensfashion .menspictures .part4 .h3,
+      .mensfashion .menspictures .part4 .h4 {
         margin: 40px 0; }
 
-.section-4 {
+.avonestyles {
   width: 100%;
   align-items: center;
   text-align: center;
   height: 100vh;
   margin-top: 100px; }
-  .section-4 .avonetitle {
+  .avonestyles .avonetitle {
     width: 100%;
     text-align: center;
     align-items: center;
     padding: 30px 0; }
-  .section-4 .pics3 {
+  .avonestyles .pics3 {
     display: flex;
     align-items: center;
     justify-content: center; }
-    .section-4 .pics3 img {
+    .avonestyles .pics3 img {
       width: 100%;
       padding: 20px; }
-    .section-4 .pics3 .rightelements {
+    .avonestyles .pics3 .rightelements {
       display: flex;
       flex-direction: column; }
-      .section-4 .pics3 .rightelements .img16 {
+      .avonestyles .pics3 .rightelements .img16 {
         position: absolute;
         width: 20% !important;
         right: 20px;
         margin-top: 250px;
         padding: 0;
         border: white 20px solid; }
-      .section-4 .pics3 .rightelements .btn-dark {
+      .avonestyles .pics3 .rightelements .btn-dark {
         width: 50%; }
 
-.section-5 {
+.bannersection {
   width: 100%;
   align-items: center;
   text-align: left;
@@ -207,19 +207,19 @@
   height: 100vh;
   width: 100%;
   background: url(../img/17.png) no-repeat center center/cover; }
-  .section-5 .container-3 {
+  .bannersection .container-3 {
     font-size: 30px;
     line-height: 2em;
     width: 50%;
     position: absolute;
     margin-top: 250px;
     left: 100px; }
-    .section-5 .container-3 h1 {
+    .bannersection .container-3 h1 {
       letter-spacing: 10px; }
-    .section-5 .container-3 h3,
-    .section-5 .container-3 p {
+    .bannersection .container-3 h3,
+    .bannersection .container-3 p {
       font-weight: 100; }
-  .section-5 a:hover {
+  .bannersection a:hover {
     opacity: 0.7; }
 
 .footer {
@@ -228,33 +228,33 @@
   display: flex;
   align-items: center;
   margin-top: 30px; }
-  .footer .footleft {
+  .footer .footerleft {
     margin: 10px;
     width: 50%; }
-    .footer .footleft .leftdown {
+    .footer .footerleft .footeraddress {
       margin: 20px; }
-    .footer .footleft .container-4 {
+    .footer .footerleft .container-4 {
       width: 100%;
       margin: 20px; }
-      .footer .footleft .container-4 .logo {
+      .footer .footerleft .container-4 .logo {
         font-size: 30px;
         padding: 10px 0; }
-      .footer .footleft .container-4 p {
+      .footer .footerleft .container-4 p {
         width: 60%; }
-  .footer .footright {
+  .footer .footerright {
     display: flex;
     flex-direction: column;
     align-items: left;
     margin: 10px; }
-    .footer .footright .down {
+    .footer .footerright .store_elements {
       display: flex;
       align-items: center; }
-    .footer .footright .input {
+    .footer .footerright .input {
       padding: 10px;
       width: 90%;
       border: #ccc 1px solid;
       outline: none; }
-    .footer .footright .submit {
+    .footer .footerright .submit {
       background: #ccc;
       color: #22262a;
       border: 2px #ccc solid;
@@ -262,9 +262,9 @@
       margin: 5px;
       font-size: 15px;
       outline: none; }
-    .footer .footright li {
+    .footer .footerright li {
       padding: 5px; }
-      .footer .footright li a:hover {
+      .footer .footerright li a:hover {
         opacity: 0.7; }
 
 .copyright {
@@ -280,40 +280,40 @@
     left: 350px;
     top: 600px;
     text-align: center; }
-  .section-1 {
+  .sectionpictures {
     display: flex;
     flex-direction: column;
     padding-top: 50px; }
-  .section-2 {
+  .womensfashion {
     height: 50vh; }
-  .section-3 {
+  .mensfashion {
     height: 50vh; }
-  .section-4 {
+  .avonestyles {
     height: 50vh; }
-  .section-5 {
+  .bannersection {
     margin-top: 100px;
     height: 50vh; }
-    .section-5 .container-3 {
+    .bannersection .container-3 {
       margin-top: 200px;
       font-size: 20px; }
   .footer {
     display: flex;
     flex-direction: column;
     height: 65vh; }
-    .footer .footleft {
+    .footer .footerleft {
       width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center; }
-      .footer .footleft .container-4 {
+      .footer .footerleft .container-4 {
         align-items: center;
         text-align: center; }
-        .footer .footleft .container-4 p {
+        .footer .footerleft .container-4 p {
           width: 100%;
           text-align: center; }
-      .footer .footleft .leftdown {
+      .footer .footerleft .footeraddress {
         text-align: center; }
-    .footer .footright .up {
+    .footer .footerright .email_input {
       text-align: center; } }
 
 @media only screen and (max-width: 500px) {
@@ -344,49 +344,49 @@
       font-size: 50px; }
     .head .title p {
       font-size: 20px; }
-  .section-1 {
+  .sectionpictures {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .section-1 .section-L {
+    .sectionpictures .leftpictures {
       display: flex;
       flex-direction: column; }
-      .section-1 .section-L .img23 {
+      .sectionpictures .leftpictures .img23 {
         width: 50%; }
-  .section-2,
-  .section-3 {
+  .womensfashion,
+  .mensfashion {
     font-size: 10.5px; }
-  .section-2 {
+  .womensfashion {
     margin-top: 50px; }
-    .section-2 .pics1 .part3,
-    .section-2 .pics1 .part4 {
+    .womensfashion .womenspictures .part3,
+    .womensfashion .womenspictures .part4 {
       display: none; }
-  .section-3 {
+  .mensfashion {
     margin-top: 130px; }
-    .section-3 .pics2 .part3,
-    .section-3 .pics2 .part4 {
+    .mensfashion .menspictures .part3,
+    .mensfashion .menspictures .part4 {
       display: none; }
-  .section-4 {
+  .avonestyles {
     display: none; }
-  .section-5 .container-3 {
+  .bannersection .container-3 {
     margin-top: 60px;
     align-items: center;
     justify-content: center;
     text-align: center; }
-    .section-5 .container-3 .title {
+    .bannersection .container-3 .title {
       height: 30vh;
       font-size: 15px;
       line-height: 2em;
       width: 100%;
       margin-top: auto; }
-      .section-5 .container-3 .title h3 {
+      .bannersection .container-3 .title h3 {
         font-weight: 400; }
-      .section-5 .container-3 .title h1 {
+      .bannersection .container-3 .title h1 {
         font-size: 30px;
         font-weight: 900; }
-      .section-5 .container-3 .title p {
+      .bannersection .container-3 .title p {
         font-weight: 500; }
-      .section-5 .container-3 .title .btn-dark {
+      .bannersection .container-3 .title .btn-dark {
         display: none; }
   .footer {
     height: 100%; } }
