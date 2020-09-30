@@ -284,7 +284,7 @@
     line-height: 2em;
     width: 50%;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 250px;
     left: 100px;
 
     h1 {
@@ -310,7 +310,7 @@
   align-items: center;
   margin-top: 30px;
   .footerleft {
-    margin-left: 90px;
+    margin: 10px;
     width: 50%;
 
     .footeraddress {
@@ -338,16 +338,6 @@
     .store_elements {
       display: flex;
       align-items: center;
-
-      .shopsection {
-        padding-right: 60px;
-      }
-      .helpsection {
-        padding-right: 60px;
-      }
-      .aboutsection {
-        padding-right: 60px;
-      }
     }
 
     .input {
@@ -358,17 +348,17 @@
     }
 
     .submit {
-      border: none;
-      color: rgb(83, 83, 83);
-      font-weight: 400;
+      background: #ccc;
+      color: #22262a;
+      border: 2px #ccc solid;
+      padding: 5px;
+      margin: 5px;
       font-size: 15px;
-      background: white;
       outline: none;
-      cursor: pointer;
     }
 
     li {
-      padding: 5px 5px 5px 0px;
+      padding: 5px;
 
       a:hover {
         opacity: 0.7;
@@ -580,166 +570,10 @@
   }
 }
 
-// iphone 5s/SE query
+// iphone 5s/SE
+
 @media only screen and (max-width: 320px) {
-  #home {
-    font-size: 50%;
-  }
-  .head {
-    .navbar {
-      height: 50px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      ul {
-        display: none;
-        left: 10px;
-        top: 35px;
-        width: 100%;
-      }
-      .logo {
-        font-size: 20px;
-      }
-    }
-    .container-1 {
-      height: 60vh;
-    }
-
-    .title {
-      width: auto;
-      left: 8px;
-      top: 100px;
-
-      h3 {
-        font-size: 70%;
-      }
-      h1 {
-        font-size: 50px;
-      }
-      p {
-        font-size: 20px;
-      }
-    }
-  }
-
-  .sectionpictures {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 13px 0 13px;
-    .leftpictures {
-      display: flex;
-      flex-direction: column;
-
-      .img23 {
-        width: 50%;
-      }
-    }
-  }
-
-  .womensfashion,
-  .mensfashion {
-    font-size: 10.5px;
-  }
-  .womensfashion {
-    margin-top: 50px;
-    padding: 0 13px 0 13px;
-    .womenspictures {
-      .part3,
-      .part4 {
-        display: none;
-      }
-    }
-  }
-
-  .mensfashion {
-    margin-top: 130px;
-    padding: 0 13px 0 13px;
-    .menspictures {
-      .part3,
-      .part4 {
-        display: none;
-      }
-    }
-  }
-
-  .avonestyles {
-    display: none;
-  }
-
-  .bannersection {
-    .container-3 {
-      margin-top: 60px;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      .title {
-        height: 30vh;
-        font-size: 15px;
-        line-height: 2em;
-        width: 100%;
-        margin-top: auto;
-
-        h3 {
-          font-weight: 400;
-        }
-
-        h1 {
-          font-size: 30px;
-          font-weight: 900;
-        }
-
-        p {
-          font-weight: 500;
-        }
-        .btn-dark {
-          display: none;
-        }
-      }
-    }
-  }
   .footer {
     height: 100%;
-    .footerleft {
-      margin: auto;
-
-      .container-4 p {
-        width: 90%;
-        padding-left: 30px;
-        text-align: center;
-        font-size: 15px;
-      }
-
-      .footeraddress {
-        font-size: 15px;
-      }
-    }
-
-    .footerright {
-      width: 100%;
-      align-items: center;
-      justify-content: center;
-
-      .store_elements {
-        padding: 0;
-        .shopsection {
-          padding: 0;
-          font-size: 150%;
-          padding-right: 15px;
-          padding-left: 20px;
-        }
-        .helpsection {
-          padding: 0;
-          font-size: 150%;
-          padding-right: 15px;
-        }
-        .aboutsection {
-          padding: 0;
-          font-size: 150%;
-          padding-right: 15px;
-        }
-      }
-    }
   }
 }
